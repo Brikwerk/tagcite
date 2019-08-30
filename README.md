@@ -1,9 +1,9 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=125px src="https://i.imgur.com/IOQy69z.png" alt="TagCite Logo"></a>
+ <img style="padding-left:2.75rem" width=200px height=125px src="https://i.imgur.com/IOQy69z.png" alt="TagCite Logo"></a>
 </p>
 
-<h2 align="center">TagCite</h2>
+<h3 align="center">TagCite</h3>
 
 <div align="center">
 
