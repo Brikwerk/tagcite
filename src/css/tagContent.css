@@ -1,0 +1,181 @@
+.data-container {
+  text-align: left;
+  word-break: break-all;
+  padding-top: 0.75rem;
+}
+
+.data-title h2 {
+  padding: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.4rem;
+  border: 4px solid black;
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+  font-size: 1.75rem;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.data-title h2 .dropdown-arrow {
+  margin-right: 0.5rem;
+  margin-top: 0.4rem;
+}
+
+.data-title h2:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+.data-title h2:hover .dropdown-arrow {
+  border-color: white;
+}
+
+.data-title-toggled .dropdown-arrow {
+  transform: rotate(-45deg);
+  margin-top: 0.7rem !important;
+  margin-right: 0.7rem !important;
+}
+
+.tag {
+  display: inline-block;
+  padding-right: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0;
+  padding-left: 0.5rem;
+  text-decoration: none;
+  height: initial !important;
+  margin: 0;
+  vertical-align: bottom;
+  box-sizing: border-box;
+  min-height: 3rem !important;
+  border: 3px solid transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.tag h2 {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5rem;
+  font-size: 1rem;
+  border-bottom: 3px solid transparent;
+}
+
+.tag h2:hover{
+  border-bottom: 3px solid black;
+  cursor: pointer;
+}
+
+.tag-open {
+  border: 3px solid black;
+  border-bottom: transparent;
+}
+
+.tag-content {
+  border: 3px solid black;
+  border-top: transparent;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 1.5rem;
+  margin-bottom: 0.5rem;
+  position: relative;
+}
+
+.tag-content-container {
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid black;
+  word-break: normal;
+}
+
+.tag-content-container:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.tag-content-close {
+  display: inline-block;
+  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+  font-weight: 700;
+  color: black;
+  padding: 0.25rem 0.5rem;
+  padding-left: 2%;
+  padding-right: 2.2%;
+  position: relative;
+  left: -2.1%;
+  border: 3px solid black;
+  border-left: none;
+  border-right: none;
+  width: 100%;
+  text-align: center;
+}
+
+.tag-content-close:hover {
+  position: relative;
+  z-index: 2;
+}
+
+.tag-content-border-close {
+  position: absolute;
+  left: -1rem;
+  top: 0;
+  height: 100%;
+  width: 2rem;
+  cursor: pointer;
+}
+
+.tag-content-border-close div {
+  margin: auto;
+  width: 1px;
+  background-color: black;
+  height: 100%;
+  z-index: -1;
+  position: relative;
+}
+
+.tag-content-border-close:hover div {
+  width: 4px;
+}
+
+.tag-content-close:hover {
+  cursor: pointer;
+  color: white;
+  background-color: black;
+}
+
+.tag-content-title {
+  margin: 0;
+  padding: 0.5rem 0;
+  padding-top: 1rem;
+}
+
+.tag-content-text {
+  margin-top: 0rem;
+}
+
+.tag-content-authors, .tag-content-tags {
+  color: gray;
+  margin: 0;
+  padding-bottom: 0.2rem;
+  font-weight: 400;
+}
+
+/** Mobile Styling **/
+@media only screen and (max-width: 800px) {
+  .tag-content {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .tag-content-close {
+    padding-left: 6%;
+    padding-right: 6%;
+    left: -6%;
+  }
+}

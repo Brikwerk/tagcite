@@ -1,0 +1,94 @@
+header {
+  background-color: white !important;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: auto;
+  border-bottom: 4px solid black;
+  position: fixed;
+  z-index: 10;
+  box-sizing: border-box;
+  top: 0;
+  width: 100%;
+}
+
+#header-container {
+  max-width: 1400px;
+  margin: auto;
+  position: relative;
+}
+
+#logo-container {
+  float: left;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+#tagcite-logo {
+  height: 100%;
+  width: 100%;
+}
+
+#logo {
+  width: 3.5rem;
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 0.4rem;
+}
+
+#title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-left: -0.1rem;
+  padding-left: 0.3rem;
+}
+
+#version {
+  display: inline-block;
+  color: #888;
+  font-size: 1em;
+  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+  padding-left: 0.1rem;
+}
+
+#nav-container {
+  width: 1.75rem;
+  float: right;
+  padding-left: 1rem;
+}
+
+#search-icon {
+  padding: 1.1rem 0rem 0.6rem 0rem;
+  cursor: pointer;
+}
+
+#search-container {
+  position: absolute;
+  height: 4rem;
+  width: 100%;
+  transition: 0.1s;
+  z-index: -1;
+  bottom: 10rem;
+}
+
+#search-container input {
+  width: 100%;
+  font-size: 1.8rem;
+  border: transparent;
+  margin-top: 0.6rem;
+  box-sizing: border-box;
+  outline: none;
+  font-weight: 700;
+}
+
+#close-icon {
+  height: 1.55rem;
+  position: absolute;
+  right: 0;
+  top: 0.55rem;
+  background-color: white;
+  padding: 0.7rem;
+  padding-bottom: 0.6rem;
+  padding-right: 0.1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}

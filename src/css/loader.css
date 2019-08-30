@@ -1,0 +1,36 @@
+.loader-container {
+  display: table;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.loader-content {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.loader-spinner {
+  height: 50px;
+  width: 50px;
+  display: block;
+  margin: auto;
+  padding-bottom: 0.5rem;
+}
+
+.loader-spinner:after {
+  content: " ";
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin: 1px;
+  border-radius: 50%;
+  border: 4px solid #000;
+  border-color: #000 #000 #000 transparent;
+  animation: spin 1.2s linear infinite;
+}
+
+#main-loader {
+  padding: 0;
+  height: 80%;
+}

@@ -1,0 +1,53 @@
+#fileupload-container {
+  height: 90%;
+}
+
+#fileupload {
+  position: relative;
+  overflow: hidden;
+  padding: 10%;
+  color: black;
+  border: 8px solid black;
+  border-style: dashed;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-top: 1.5rem;
+  box-sizing: border-box;
+  height: 100%;
+  display: table;
+  width: 100%;
+}
+
+#fileupload-text {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.add-btn {
+  font-size: 7em;
+  font-weight: 500;
+  display: block;
+  line-height: 0.7;
+}
+
+.upload-text {
+  font-size: 2.5em;
+  font-weight: 700;
+  display: block;
+  padding-bottom: 0.3em;
+}
+
+#fileupload input.upload {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}

@@ -1,0 +1,5 @@
+#snackbar {
+  display: block;
+  position: absolute;
+  bottom: 0;
+}

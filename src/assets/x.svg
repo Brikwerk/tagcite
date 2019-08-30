@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="close-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;}
+	.st2{fill:#FFFFFF;}
+	.st3{stroke:#000000;stroke-width:16;stroke-miterlimit:10;}
+</style>
+<g id="Mag_Glass" class="st0">
+	<g class="st1">
+		<circle class="st2" cx="78" cy="74" r="63.5"/>
+		<path d="M78,20c29.8,0,54,24.2,54,54s-24.2,54-54,54s-54-24.2-54-54S48.2,20,78,20 M78,1C37.7,1,5,33.7,5,74s32.7,73,73,73
+			s73-32.7,73-73S118.3,1,78,1L78,1z"/>
+	</g>
+	<g class="st1">
+		
+			<rect x="148.5" y="114" transform="matrix(0.7071 -0.7072 0.7072 0.7071 -65.5481 154.2006)" class="st2" width="9.6" height="84.5"/>
+		<polygon points="126.8,113.1 110.1,129.7 179.7,199.3 196.4,182.7 		"/>
+	</g>
+</g>
+<g id="X">
+	<g>
+		<polygon class="st3" points="170.2,15 15.3,170.5 29.8,185 184.7,29.5 		"/>
+	</g>
+	<g>
+		<polygon class="st3" points="14.9,29.9 170.6,184.6 185.1,170.1 29.4,15.4 		"/>
+	</g>
+</g>
+</svg>

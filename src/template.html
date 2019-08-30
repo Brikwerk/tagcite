@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>TagCite v<%= version; %></title>
+    <link inline href="../bundles/main.bundle.css"/>
+    <script inline src="../bundles/main.bundle.js"></script>
+  </head>
+  <body>
+    <header id="header">
+      <div id="header-container">
+        <div id="logo-container">
+          <div id="logo">
+            <img inline src="./assets/logo.svg">
+          </div>
+          <span id="title">TagCite</span>
+          <span id="version">v<%= version; %></span>
+        </div>
+        <div id="nav-container">
+          <img class="disabled no-highlight" inline src="./assets/mag-glass.svg">
+        </div>
+        <div id="search-container" class="transparent">
+          <input placeholder="Search Tags..." id="search-input" type="text">
+          <img class="no-highlight" inline src="./assets/x.svg">
+        </div>
+      </div>
+    </header>
+    <section id="snackbar"></section>
+    <section id="fileupload-container">
+      <div id="fileupload">
+        <div id="fileupload-text">
+          <span class="add-btn">+</span>
+          <span class="upload-text">ADD DOCS</span>
+          <span><span class="disable-on-ie">Drag and Drop Files Here or...<br></span>Click Here to Select them
+            Manually</span>
+        </div>
+        <input class="upload" type="file" name="file" multiple="multiple" id="file" enctype="multipart/form-data" />
+      </div>
+      <div class='message-container enable-on-ie disabled'><strong class="inline-tag warning-tag">WARNING:</strong> Drag and drop is not supported in Internet Explorer.
+        Please use either an alternate browser (Firefox, Chrome, etc) or click the upload box to upload your files.
+      </div>
+      <div id="session-storage-error" class='message-container disabled'><strong class="inline-tag error-tag">ERROR:</strong>
+        Web Storage (specifically Session Storage) is not supported in this browser.
+        Please enable Web Storage or use an alternate browser (Firefox, Chrome, etc).
+      </div>
+      <noscript>
+        <style>
+          #fileupload {
+            display: none;
+          }  
+        </style>
+        <div class='message-container'><strong class="inline-tag error-tag">ERROR:</strong>
+          JavaScript is currently disabled. Please enable JavaScript to allow for functionality.
+        </div>
+      </noscript>
+    </section>
+    <section id="main-loader" class='loader-container disabled'>
+      <div class='loader-content'>
+        <span class='loader-text'>Loading Tags...</span>
+      </div>
+    </section>
+    <section id="data-tags-title" class='data-title disabled'>
+      <h2 class="data-header" child="tag-container">
+        TAGS
+        <span class="dropdown-arrow"></span>
+      </h2>
+    </section>
+    <section id="tag-container" class="data-container disabled"></section>
+    <section id="data-authors-title" class='data-title disabled'>
+      <h2 class="data-header" child="author-container">
+        AUTHORS
+        <span class="dropdown-arrow"></span>
+      </h2>
+    </section>
+    <section id="author-container" class="data-container disabled"></section>
+  </body>
+</html>

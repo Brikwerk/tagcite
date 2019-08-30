@@ -1,0 +1,15 @@
+.disabled {
+  display: none;
+}
+
+.transparent {
+  opacity: 0;
+}
+
+.no-highlight {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

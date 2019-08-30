@@ -1,0 +1,32 @@
+* {
+  font-family: sans-serif;
+  line-height: 1.5em;
+}
+
+body, html {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 4rem;
+}
+
+section {
+  padding-left: 5%;
+  padding-right: 5%;
+  max-width: 1400px;
+  margin: auto;
+}
+
+/** Mobile Styling **/
+@media only screen and (max-width: 400px) {
+  section {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+}

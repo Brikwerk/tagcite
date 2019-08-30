@@ -1,0 +1,38 @@
+{
+  "name": "tagcite",
+  "version": "1.0.0",
+  "description": "Renders and displays appropriately tagged text",
+  "main": "build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:dist": "mode=production node -e 'require(\"./build\").build()'",
+    "build:dev": "mode=development node -e 'require(\"./build\").build()'",
+    "start:dist": "mode=production node -e 'require(\"./build\").watch()'",
+    "start:dev": "mode=development node -e 'require(\"./build\").watch()'"
+  },
+  "keywords": [
+    "tagcloud",
+    "wordcloud",
+    "tags",
+    "organization",
+    "citations"
+  ],
+  "author": "Brikwerk",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "chokidar": "^3.0.1",
+    "css-loader": "^3.2.0",
+    "ejs": "^2.6.2",
+    "inline-source": "^6.1.10",
+    "mini-css-extract-plugin": "^0.8.0",
+    "open": "^6.3.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.6"
+  }
+}

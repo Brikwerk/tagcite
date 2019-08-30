@@ -1,0 +1,42 @@
+.message-container {
+  padding-top: 1.5rem;
+  text-align: left;
+}
+
+.message-close {
+  display: inline-block;
+  position: relative;
+  left: 0;
+  height: 100%;
+  width: 1rem;
+  border: 2px solid black;
+}
+
+.inline-tag {
+  padding: 0.05rem 0.5rem;
+  padding-top: 0.2rem;
+  margin-right: 0.25rem;
+  display: inline-block;
+  box-sizing: border-box;
+  margin-bottom: 0.1rem;
+  border: 3px solid black;
+}
+
+.warning-tag {
+  border-color: #ffc107;
+}
+
+.error-tag {
+  border-color: #f40c0c;
+}
+
+.dropdown-arrow {
+  height: 1rem;
+  width: 1rem;
+  border-bottom: 4px solid black;
+  border-right: 4px solid black;
+  transform: rotate(45deg);
+  display: block;
+  float: right;
+  transition: 0.1s ease-in-out;
+}
