@@ -22,7 +22,7 @@
 
 <p align="center">
   <a href="" rel="noopener">
- <img src="https://media.giphy.com/media/m93r25GMkg4nt67LT0/giphy.gif" alt="TagCite Demo Image"></a>
+ <img src="https://github.com/Brikwerk/tagcite/blob/master/img/1.0.0-demo.gif?raw=true" alt="TagCite Demo Image"></a>
 </p>
 
 ## Table of Contents
